@@ -1,0 +1,10 @@
+Flask==3.0.0
+flask-cors==4.0.0
+requests==2.31.0
+crewai
+crewai-tools
+langchain
+langchain-community
+langchain-ollama
+setuptools
+python-dotenv

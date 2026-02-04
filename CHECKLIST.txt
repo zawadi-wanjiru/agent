@@ -1,0 +1,59 @@
+SUBMISSION CHECKLIST
+
+Before submitting, make sure you have:
+
+[✓] Main implementation files
+    - backend/agents.py (6 agent definitions)
+    - backend/tools.py (3 custom tools)
+    - backend/crew.py (full orchestration)
+    - backend/crew_optimized.py (fast routing)
+    - backend/app_multiagent.py (Flask API)
+    - backend/requirements.txt (all dependencies)
+    - frontend/ (React UI)
+
+[✓] README.txt containing:
+    - Use case & why you chose it
+    - Agent team structure
+    - Setup instructions
+    - 3 example interactions
+    - Challenges faced & solutions
+
+[✓] agent_diagram.txt
+    - Shows communication flow between agents
+    - Lists each agent's role
+
+[✓] demo.ipynb
+    - Jupyter notebook with realistic scenario
+    - Code to test the system
+    - Shows multi-agent coordination
+
+[ ] Screenshots folder with:
+    - UI showing FAQ query
+    - UI showing order lookup
+    - UI showing complex query
+    - Terminal showing agent activity
+    
+    NOTE: Take these while system is running!
+    Run backend: cd backend && source venv/bin/activate && python app_multiagent.py
+    Run frontend: cd frontend && npm run dev
+    Open http://localhost:5173 and capture screenshots
+
+[✓] reflection.txt
+    - 2-3 paragraphs
+    - Written in your own voice
+    - Explains multi-agent advantages vs single agent
+
+[✓] .env.example (for others to set up)
+
+GITHUB REPOSITORY:
+- Push this submission folder to your repo
+- Make sure .gitignore excludes .env file
+- Repo URL: (will be added by group)
+
+FINAL STEPS:
+1. Take the 4-5 screenshots
+2. Test the demo notebook (jupyter notebook demo.ipynb)
+3. Zip the submission/ folder OR just push to GitHub
+4. Submit!
+
+Good luck!
